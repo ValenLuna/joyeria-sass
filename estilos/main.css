@@ -1,0 +1,42 @@
+.titulos-div {
+  padding: 20px 15px;
+  grid-area: slider-inicio; }
+
+section.aros {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  grid-area: productos; }
+  section.aros .aro-producto {
+    width: 300px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    align-items: center; }
+    section.aros .aro-producto img {
+      width: 300px;
+      height: 245px; }
+    section.aros .aro-producto h2 {
+      padding: 15px 15px 0px 15px;
+      text-align: center;
+      font-size: 1.7rem;
+      font-weight: 530; }
+    section.aros .aro-producto h3 {
+      padding: 5px 15px 3px 15px;
+      text-align: center;
+      font-size: 1.2rem; }
+    section.aros .aro-producto a {
+      padding: 10px;
+      margin: 10px 95px;
+      border-radius: 4%;
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: #F1EFFF;
+      background-color: #7E7CAE; }
